@@ -1,0 +1,44 @@
+Key,Value,Description
+AccountEmail,,Account root Email
+AccountName,,AWS Account Name
+ManagedOrganizationalUnit,,OU ID
+SSOUserEmail,,SSO User Email for New account
+SSOUserFirstName,,SSO User FirstName for New account
+SSOUserLastName,,SSO User LastName for New account
+Account_Owner,,Tag value for who will own this account
+change_requested_by,,Tag value for who requested this account
+change_reason,,Tag value for change reason(Ex- Onboard new account)
+,,
+Tenant_companyName,,Tenant company Name
+,,
+,,
+Username_one,,Tenant_user_name
+FirstName_one,,Tenant_user_firstname
+LastName_one,,Tenant_user_lastname
+Tenant_email_one,,Tenant_email_address
+,,
+,,
+Username_two,,
+FirstName_two,,
+LastName_two,,
+Tenant_email_two,,
+,,
+,,
+Username_three,,
+FirstName_three,,
+LastName_three,,
+Tenant_email_three,,
+,,
+,,
+,,
+Group_Name,,IAM Group Name for tenant users
+description,,IAM group description
+budget_name,,Tenant_budget_name
+subscriber_email_addresses,,Budget_alerts_subscribers comma seperated values
+,,
+,,
+cw_event_rule_name,,cloud watch event rule name
+cw_event_rule_description,,cloud watch event rule description
+sns_topic_name,,SNS topic Name
+sns_display_name,,SNS Display Name
+sns_topic_sub_endpoint,,"Gurad duty alerts to be sent, email address"
